@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+</head>
+<body>
+  <!--  //TAREA: En otro archivo distinto,
+ Por cada clase de r/argentina programa existente, vamos a pedir:
+ horas, minutos y segundos de cada video. Ej. Si un video dura
+ 2 horas, 38 minutos y 20 segundos, vamos a rellenar 3 campos de texto con
+ cada dato.
+ al apretar el botón "Calcular tiempo total", debe mostrar en un
+ <strong> pre-creado el tiempo total de los videos.-->
+
+
+    <form>
+        <u><p>Sumar el tiempo total de los videos de r/argentina programa</p></u>
+        
+        <div> <u><p>Video 1:</p></u>
+            <input type="number" class="horas" placeholder="hora" max="59" value>
+            <input type="number" class="minutos" placeholder="minutos" max="59" value >
+            <input type="number" class="segundos" placeholder="segundos" max="59"  value>
+            
+        </div>
+        <div> <u><p>Video 2:</p></u>
+            <input type="number" class="horas" placeholder="hora" max="59" value>
+            <input type="number" class="minutos" placeholder="minutos" max="59" value>
+            <input type="number" class="segundos" placeholder="segundos" max="59" value>
+            
+        </div>
+        <div> <u><p>Video 3:</p></u>
+            <input type="number" class="horas" placeholder="hora" max="59" value>
+            <input type="number" class="minutos" placeholder="minutos" max="59" value>
+            <input type="number" class="segundos" placeholder="segundos" max="59" value>
+            
+        </div>
+        <div>
+            <br>
+            <button class="calcular" type="text">Calcular Tiempo total de los videos</button>
+            <button type="reset">Limpiar todo</button>
+        </div>
+        <div class="respuesta">
+            <strong></strong>
+        </div>
+    </form>
+
+
+     <script src="tarea2.js"></script>
+</body>
+</html>
